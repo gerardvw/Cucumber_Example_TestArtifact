@@ -7,11 +7,13 @@ There is nothing fancy like a webapp or browser testing. All this does is to sho
 to install and run Cucumber!
 
 ----->>>>>> This is adjusted to make an example of creating a TEST jar file including all dependencies and running Cucumber tests from command-line <<<<<<------------------------
+
 Most important changes:
 - Moved testcode from test to main
 - Added profile 'jar-with-dependencies' in pom making use of maven-assembly-plugin to create the test jar
 - Added buildJar.bat for an example how to create the test jar
 - Added runtests.bat for an example how to run this test jar
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 There is a single feature file with one scenario. The scenario has three steps, two of them pending. See if you can make them all pass!
