@@ -12,22 +12,9 @@ Most important changes:
 - Added profile 'jar-with-dependencies' in pom making use of maven-assembly-plugin to create the test jar
 - Added buildJar.bat for an example how to create the test jar
 - Added runtests.bat for an example how to run this test jar
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 There is a single feature file with one scenario. The scenario has three steps, two of them pending. See if you can make them all pass!
-
-## Get the code
-
-Git:
-
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
-    cd cucumber-java-skeleton
-
-Subversion:
-
-    svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
-    cd cucumber-java-skeleton
-
-Or simply [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/master.zip) file.
 
 ## Use Maven
 
